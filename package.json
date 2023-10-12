@@ -49,5 +49,8 @@
     "@/resources": "dist/resources",
     "@/utils": "dist/utils",
     "@/middlewares": "dist/middlewares"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
