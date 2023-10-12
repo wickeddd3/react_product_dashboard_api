@@ -24,7 +24,7 @@ class App {
   private initialiseMiddleware(): void {
     this.express.use(helmet());
     this.express.use(cors({
-      origin: 'http://localhost:3000',
+      origin: 'https://react-product-dashboardd.netlify.app',
     }));
     this.express.use(morgan('dev'));
     this.express.use(express.json());
