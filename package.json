@@ -51,6 +51,6 @@
     "@/middlewares": "dist/middlewares"
   },
   "engines": {
-    "node": ">=14.20.1"
+    "node": ">=14.17.0"
   }
 }
