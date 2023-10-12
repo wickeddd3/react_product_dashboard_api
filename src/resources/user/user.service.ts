@@ -12,14 +12,6 @@ class UserService {
         {
           $match: filter,
         },
-        {
-          $lookup: {
-            from: 'projects',
-            localField: '_id',
-            foreignField: 'members',
-            as: 'projects',
-          },
-        },
       ])
       return users as User[];
     } catch (error: any) {
